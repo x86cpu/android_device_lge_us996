@@ -83,5 +83,8 @@ TW_INCLUDE_CRYPTO := true
 #TARGET_HW_DISK_ENCRYPTION := true
 #TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
+# Allow Lineage to take OTA
+TW_IGNORE_MISC_WIPE_DATA := true
+
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
